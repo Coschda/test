@@ -3,48 +3,7 @@ if game.PlaceId == 2809202155 then
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     local Window = OrionLib:MakeWindow({Name = "YBA Mika Script", HidePremium = false, SaveConfig = true, ConfigFolder = "MikaConfig", IntroEnabled = false})
     
-    -- Item Farm --
-    
-    local ItemFarmTab = Window:MakeTab({
-        Name = "Item Farm",
-        PremiumOnly = false
-    })
-    
-    ItemFarmTab:AddToggle({
-        Name = "Auto Farm",
-        Default = false,
-        Callback = function(Value)
-            print(Value)
-        end    
-    })
-    
-    local ItemSection = ItemFarmTab:AddSection({
-        Name = "Items to farm"
-    })
-    
-    ItemSection:AddToggle({
-        Name = "Lucky Arrow",
-        Default = true,
-        Callback = function(Value)
-            print(Value)
-        end    
-    })
-    
-    ItemSection:AddToggle({
-        Name = "Mysterious Arrow",
-        Default = false,
-        Callback = function(Value)
-            print(Value)
-        end    
-    })
-    
-    ItemSection:AddToggle({
-        Name = "Rokakaka",
-        Default = false,
-        Callback = function(Value)
-            print(Value)
-        end    
-    })
+
     
     -- Stand Roller
     
