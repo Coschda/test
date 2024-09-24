@@ -56,34 +56,7 @@ if game.PlaceId == 2809202155 then
         end
     end
     
-    StandTab:AddButton({
-        Name = "Learn Worthiness II",
-        Callback = function()
-            LearnSkill()
-          end    
-    })
-    
-    StandTab:AddButton({
-        Name = "Use Arrow",
-        Callback = function()
-            UseArrow()
-          end    
-    })
-    end
-    
-    StandTab:AddButton({
-        Name = "Print GUI",
-        Callback = function()
-            PrintGUI()
-          end    
-    })
-    
-    StandTab:AddToggle({
-        Name = "Stop on Skins",
-        Default = true,
-        Callback = function(Value)
-        end    
-    })
+
     
     end
     
