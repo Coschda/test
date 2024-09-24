@@ -79,7 +79,7 @@ StandTab:AddToggle({
     Name = "Stop on Skins",
     Default = true,
     Callback = function(Value)
-    end    
+        end    
 })
 
 end
