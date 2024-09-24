@@ -56,14 +56,14 @@ local StandTab = Window:MakeTab({
 StandTab:AddButton({
     Name = "Learn Worthiness II",
     Callback = function()
-        LearnSkill()
+        --LearnSkill()
         end    
 })
     
 StandTab:AddButton({
     Name = "Use Arrow",
     Callback = function()
-        UseArrow()
+        --UseArrow()
         end    
 })
 end
@@ -71,7 +71,7 @@ end
 StandTab:AddButton({
     Name = "Print GUI",
     Callback = function()
-        PrintGUI()
+        --PrintGUI()
         end    
 })
     
