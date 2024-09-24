@@ -1,0 +1,4 @@
+FireServer :
+
+workspace.Living.BoubakarOctogone2.RemoteEvent:FireServer("FastTravel",workspace.FastTravel["Parking Lot"])
+workspace.Living.BoubakarOctogone2.RemoteEvent:FireServer("EndDialogue",{["NPC"] = "Storyline #8",["Dialogue"] = "StorylineHint"})
