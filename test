@@ -46,6 +46,13 @@ ItemSection:AddToggle({
     end    
 })
 
+-- Stand Roller
+
+local StandTab = Window:MakeTab({
+    Name = "Stand Roller",
+    PremiumOnly = false
+})
+
 StandTab:AddButton({
     Name = "Learn Worthiness II",
     Callback = function()

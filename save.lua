@@ -5,12 +5,8 @@ if game.PlaceId == 2809202155 then
     
 
     
-    -- Stand Roller
     
-    local StandTab = Window:MakeTab({
-        Name = "Stand Roller",
-        PremiumOnly = false
-    })
+
     
     StandTab:AddToggle({
         Name = "Activate Stand Farming",
